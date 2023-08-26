@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <!-- =================Navbar=================== -->
+    <nav class="navbar navbar-expand-lg position-absolute w-100 top-0 start-0">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <button class="btn d-block d-lg-none nav_btn common_btn"> Contact Us</button>
+            </ul>
+          </div>
+          <button class="btn d-none d-lg-block nav_btn common_btn"> Contact Us</button>
+        </div>
+      </nav>
+
+    <!-- ==================Banner=============== -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="banner_content">
+                        <h1>You’re Unique.Your Website Should be Too</h1>
+                        <p class="col-lg-8 m-auto">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
+                        <div class="banner_btn d-flex justify-content-center mt-3">
+                          <a href="#">get free quoto</a>
+                          <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================counter section=====================? -->
+    <section id="counter">
+      <div class="container">
+        <div class="row counter_wrapper ">
+          <div class="col-12 col-md-6 col-lg-3 counter_item text-center">
+            <span class="counter text-center">300</span><span>K</span>
+            <p>Happy Client</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 counter_item text-center">
+            <span class="counter">10</span><span>K</span>
+            <p>Project Done</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 counter_item text-center">
+            <span class="counter">120</span>
+            <p>Gets Award</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 counter_item text-center">
+            <span class="counter">16</span>
+            <p>Operated Years</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================About us section============= -->
+    <section id="about_us">
+      <div class="container">
+        <div class="row about_wrapper d-flex justify-content-between">
+          <div class="col d-sm-block d-md-none">
+            <div class="about_desc">
+              <h3>Why Choose Us</h3>
+              <p>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.</p>
+              <button class="btn btn-primary d-none d-md-block common_btn"> Contact Us</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about_work">
+              <div class="row">
+                <div class="col">
+                  <p>We solve real-world problems through people and the web.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p>We make processes and technology work efficiently together.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p>We advance improve existing technology through research and development.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p>We develop long-lasting and scalable solutions, relationships partnerships.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-5 d-none d-md-block">
+            <div class="about_desc">
+              <h3>Why Choose Us</h3>
+              <p>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.</p>
+              <button class="btn btn-primary d-none d-md-block common_btn"> Contact Us</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================Our service section============== -->
+    <section id="our_service">
+      <div class="container">
+        <div class="row d-flex service_wrapper row-gap-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="section_header">
+              <h3>What We Do</h3>
+              <p>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
+              <button class="btn btn-primary d-none d-lg-block common_btn"> Contact Us</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="service_item">
+              <div class="service_image">
+                <img src="./images/web-design 1.png" alt="">
+              </div>
+              <h4>web Design & Dev</h4>
+              <p>Social Media has changed the way we interact & do business while creating</p>
+              <a class="read_more" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="service_item">
+              <div class="service_image">
+                <img src="./images/growth1.png" alt="">
+              </div>
+              <h4>Software Dev</h4>
+              <p>Social Media has changed the way we interact & do business while creating</p>
+              <a class="read_more" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="service_item">
+              <div class="service_image">
+                <img src="./images/social-marketing.png" alt="">
+              </div>
+              <h4>Content Writing</h4>
+              <p>Social Media has changed the way we interact & do business while creating</p>
+              <a class="read_more" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="service_item">
+              <div class="service_image">
+                <img src="./images/digital.png" alt="">
+              </div>
+              <h4>Digital Marketing</h4>
+              <p>Social Media has changed the way we interact & do business while creating</p>
+              <a class="read_more" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="service_item last_item">
+              <div class="service_image">
+                <img src="./images/presentation.png" alt="">
+              </div>
+              <h4>Support & Training</h4>
+              <p>Social Media has changed the way we interact & do business while creating</p>
+              <a class="read_more" href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row mt-4">
+          
+        </div> -->
+      </div>
+    </section>
+
+    <!-- ================Impact section===================== -->
+    <section id="impact">
+      <div class="container">
+        <div class="impact_header text-center">
+          <h3>We create real impact</h3>
+          <p>We design, build and support websites and apps for clients worldwide. Create beautiful, eye-catching on-page messages without the need for a developer.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="impact_item d-flex">
+              <div class="item_image">
+                <img src="./images/impact_icon1.png" alt="">
+              </div>
+              <div class="item_desc">
+                <h4>Competitive analysis</h4>
+                <p>With an all-new look and powerful features, Ekko is the best way to ensure success for your business.</p>
+              </div>
+            </div>
+            <div class="impact_item d-flex">
+              <div class="item_image">
+                <img src="./images/impact_icon2.png" alt="">
+              </div>
+              <div class="item_desc">
+                <h4>Strategy And research</h4>
+                <p>Save money and start building your website using the best tools available on the market today.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="impact_images d-none d-md-flex flex-wrap position-relative">
+              <div class="img1">
+                <img src="./images/impact11.jpg" alt="">
+                .
+              </div>
+              <div class="img2">
+                <img src="./images/impact22.jpg" alt="">
+              </div>
+              <div class="img3">
+                <img src="./images/impact33.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================Plan section=================== -->
+    <section id="plan">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="text-center">Choose The Right Plan</h4>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <div data-tilt class="plan_item">
+                <h6 class="text-center">Basic</h6>
+                <div class="plan_image">
+                  <img src="./images/plan1.png" alt="img">
+                </div>
+                <div class="price">
+                  <h5 class="text-center">160$</h5>
+                </div>
+                <ul class="text-center">
+                  <li>Responsive Design</li>
+                  <li>Dynamic Elements</li>
+                  <li>Service Pages</li>
+                  <li>Custom Design & Features</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">
+              <div data-tilt class="plan_item">
+                <h6 class="text-center">Professional</h6>
+                <div class="plan_image">
+                  <img src="./images/plan1.png" alt="img">
+                </div>
+                <div class="price">
+                  <h5 class="text-center">240$</h5>
+                </div>
+                <ul class="text-center">
+                  <li>Responsive Design</li>
+                  <li>Dynamic Elements</li>
+                  <li>Service Pages</li>
+                  <li>Custom Design & Features</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">
+              <div data-tilt class="plan_item">
+                <h6 class="text-center">Exclusive</h6>
+                <div class="plan_image">
+                  <img src="./images/plan3.png" alt="img">
+                </div>
+                <div class="price">
+                  <h5 class="text-center">325$</h5>
+                </div>
+                <ul class="text-center">
+                  <li>Responsive Design</li>
+                  <li>Dynamic Elements</li>
+                  <li>Service Pages</li>
+                  <li>Custom Design & Features</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===============People thoughe section================= -->
+    <section id="slider">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="text-center">What The People Thinks About Us </h4>
+        </div>
+        <div class="slick_section">
+          <div class="prev d-none d-md-block">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+          <div class="next d-none d-md-block">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="slider_wrapper">
+            <div class="slider_main">
+              
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="slider_content">
+                    <div class="slider_image m-auto">
+                      <img src="./images/people1.png" alt="">
+                    </div>
+                    <div class="star_icon m-auto text-center">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+      
+                    <div class="slider_content_desc">
+                      <p>Lesser Replenish bearing they’re him cattle kind dominion. You 
+                        which fill place. Land she’d subdue divided gathering blessed
+                        seasons it. Without, wherein days.</p>
+                        <h6 class="text-center">Lukan Depina</h6>
+                        <p class="post">Ceo And Head Of Idea</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_main">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="slider_content">
+                    <div class="slider_image m-auto">
+                      <img src="./images/people1.png" alt="">
+                    </div>
+                    <div class="star_icon m-auto text-center">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+      
+                    <div class="slider_content_desc">
+                      <p>Lesser Replenish bearing they’re him cattle kind dominion. You 
+                        which fill place. Land she’d subdue divided gathering blessed
+                        seasons it. Without, wherein days.</p>
+                        <h6 class="text-center">Lukan Depina</h6>
+                        <p class="post">Ceo And Head Of Idea</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============Other link section================== -->
+    <div class="section" id="others_link">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 m-auto">
+            <div class="link_item">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="link_image">
+                      <img src="./images/gpt.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="row pt-3 pb-3">
+                      <div class="col-auto">
+                        <span style="color: #1BBF00;">News</span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="author">
+                          <span> By Tomas Nikelson </span>
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <div class="posted_time">
+                          <span>Posted 5 Hours Ago </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="single_link">
+                          <a href="#">Punto Pago Allows Quick And Secure Payments For Services In Panama</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <a class="read_more" href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="link_item">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="link_image">
+                      <img src="./images/mouse.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="row pt-3 pb-3">
+                      <div class="col-auto">
+                        <span style="color: #1BBF00;">News</span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="author">
+                          <span> By Tomas Nikelson </span>
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <div class="posted_time">
+                          <span>Posted 5 Hours Ago </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="single_link">
+                          <a href="#">The User Can Also Replenish A Balance Make Remittances </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <a class="read_more" href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="link_item">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="link_image">
+                      <img src="./images/pc.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="row pt-3 pb-3">
+                      <div class="col-auto">
+                        <span style="color: #1BBF00;">News</span>
+                      </div>
+                      <div class="col-auto">
+                        <div class="author">
+                          <span> By Tomas Nikelson </span>
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <div class="posted_time">
+                          <span>Posted 5 Hours Ago </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="single_link">
+                          <a href="#">The User Can Also Replenish A Balance Make Remittances </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <a class="read_more" href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================Footer section===================-->
+     <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-5">
+            <div class="footer_item footer_logo_item">
+              <div class="footer_logo">
+                  <a href="#"><img src="images/Logo.png" alt=""></a>
+              </div>
+              <div class="content">
+                  <p>Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
+              </div>
+
+          </div>
+          </div>
+          <div class="col-md-2">
+            <div class="footer_item">
+              <div class="footer_header features">
+                  <h4>Features</h4>
+              </div>
+              <div class="footer_link">
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Benifit</a></li>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Blog</a></li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_item products">
+              <div class="footer_header ">
+                  <h4>Products</h4>
+              </div>
+              <div class="footer_link">
+                  <ul>
+                      <li><a href="#">Task Management</a></li>
+                      <li><a href="#">Company growth</a></li>
+                      <li><a href="#">Time tracking</a></li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-lg-2">
+            <div class="footer_item support">
+              <div class="footer_header ">
+                  <h4>Support</h4>
+              </div>
+              <div class="footer_link">
+                  <ul>
+                      <li><a href="#">Customer service</a></li>
+                      <li><a href="#">Accessibility</a></li>
+                      <li><a href="#">Contact us</a></li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+        </div>
+
+         <!-- <div class="copyright">
+          <div class="row d-md-flex">
+            <div class="col-12 col-md-6 justify-content-between text-center">
+              <div class="left_side">
+                <p class="text-center">@20201 Innovate.All rights reserved.</p>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+              <div class="right_side d-flex">
+                <div class="inner_left">
+                    <a href="#">Privacy policy</a>
+                </div>
+                <div class="inner_right">
+                    <a href="#">Terms & condition</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  -->
+      </div>
+     </footer>
+
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+
+    <script src="./js/slick.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/tilt.jquery.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

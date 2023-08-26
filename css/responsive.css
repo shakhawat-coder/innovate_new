@@ -1,0 +1,1321 @@
+/* =================Extra small device========= */
+@media (max-width:575.99px) {
+    .navbar {
+        padding: 10px 0;
+        background: rgba(22, 12, 109);
+    }
+    .navbar-brand img{
+        width: 60%;
+    }
+    .navbar-toggler {
+        border: 0;
+    }
+    .navbar-toggler i{
+        color: #ffffff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .nav_btn {
+        padding: 8px 12px;
+        font-size: 16px;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    /* ==============Banner section============== */
+    #banner {
+        padding: 145px 0 110px;
+    }
+
+
+    .banner_content p {
+        padding-bottom: 20px;
+        width: auto;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .banner_content h1 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height:    1.5;
+        padding-bottom: 20px;
+    }
+    .banner_btn {
+        row-gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner_btn a {
+        padding: 7px 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        width: 200px;
+        text-align: center;
+    }
+    /* ===========Counter section============ */
+    #counter {
+        padding: 40px 0;
+    }
+    .counter_item::after {
+        height: 2px;
+        width: 100px;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        top: unset;
+    }
+    .counter_item span {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .counter_item p {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    /* ==================About section=========== */
+    #about_us{
+        padding: 40px 0;
+        background: #FDFDFD;
+    }
+    .about_work p {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 20px 30px 20px 90px;
+    }
+    .about_work p:hover{
+        padding: 20px 30px 20px 90px;
+    }
+
+    .about_desc h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .about_desc{
+        padding-left: 20px; 
+    }
+    .about_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 9px 50px 40px 0;
+    }
+
+
+    /* ===========Our service==================== */
+    #our_service {
+        padding: 60px 0;
+    }
+    #our_service .section_header{
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #our_service .section_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    #our_service .section_header p{
+        padding: 0 40px;
+    }
+    .service_item {
+        margin: 0 20px;
+    }
+    .service_item p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .service_item h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    /* ============Impact section============= */
+    #impact {
+        padding: 60px 0;
+    }
+    .impact_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .impact_header p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 23px 20px 75px;
+    }
+    .impact_item {
+        padding: 0 10px;
+    }
+    .impact_item .item_desc h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .impact_item .item_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    .impact_images {
+        margin: 0 20px;
+    }
+    .img3 {
+        position: absolute;
+        top: 160px;
+        right: -15px;
+    }
+
+    /* =================Plan section================= */
+    #plan {
+        padding: 60px 0;
+    }
+    #plan .section_header h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+    .plan_item {
+        margin: 15px 20px;
+    }
+    /* =============people thought=============== */
+    #slider {
+        padding: 0;
+    }
+    #slider .section_header h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 0 40px;
+    }
+    .slider_content_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0 20px;
+    }
+
+    /* ==============Other link=============== */
+    #others_link {
+        padding: 80px 50px 50px 20px;
+    }
+    .link_image{
+        width: 250px;
+        height: 150px;
+        overflow: hidden;
+    }
+    .link_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .single_link a {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* letter-spacing: -1.5px; */
+        padding: 16px 0;
+    }
+
+    /* ============Footer section============ */
+    footer {
+        padding: 50px 50px 40px;
+    }
+    .footer_logo {
+        padding-bottom: 24px;
+    }
+    .footer_item p {
+        font-size: 16px;
+        font-weight: 400;
+        width: auto;
+    }
+    .footer_header h4 {
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .footer_item{
+        text-align: center;
+    }
+    .footer_link ul li {
+        padding-bottom: 15px;
+    }
+    .footer_link a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .copyright {
+        padding-top: 10px;
+    }
+    .copyright p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .right_side {
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        margin: 0 auto !important; 
+    }
+    .right_side a {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+/* =====================small screen============= */
+@media (min-width:576px) and (max-width:767.99px) {
+    .navbar {
+        padding: 20px 0;
+        background: rgba(22, 12, 109);
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-toggler {
+        border: 0;
+    }
+    .navbar-toggler i{
+        font-size: 30px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .nav_btn {
+        padding: 8px 12px;
+        font-size: 16px;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    /* ==============Banner section============== */
+    #banner {
+        /* background-image: url(../images/xxsbanner.jpg); */
+        /* background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+        padding: 180px 0 110px;
+    }
+
+    .banner_content h1 {
+            font-weight: 700;
+            font-size: 35px;
+            line-height:    1.5;
+            padding-bottom: 20px;
+        }
+    .banner_content p {
+        padding-bottom: 20px;
+        width: auto;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+   
+    .banner_btn {
+        row-gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner_btn a {
+        padding: 7px 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        width: 200px;
+        text-align: center;
+    }
+
+
+
+    /* ===========Counter section============ */
+    #counter {
+        padding: 40px 0;
+    }
+    .counter_item::after {
+        height: 2px;
+        width: 100px;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        top: unset;
+    }
+    .counter_item span {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .counter_item p {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+     /* ==================About section=========== */
+     .about_work p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px 30px 20px 90px;
+    }
+    .about_work p:hover{
+        padding: 20px 30px 20px 90px;
+    }
+    .about_desc h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .about_desc{
+        padding-left: 20px; 
+    }
+    .about_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 9px 50px 40px 0;
+    }
+
+    /* ===========Our service==================== */
+    #our_service {
+        padding: 60px 0;
+    }
+    #our_service .section_header{
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #our_service .section_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    #our_service .section_header p{
+        padding: 0 40px;
+    }
+    .service_item {
+        margin: 0 15px;
+    }
+    .service_item h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    /* ============Impact section============= */
+    #impact {
+        padding: 60px 0;
+    }
+    .impact_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .impact_header p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 23px 40px 50px;
+    }
+    .impact_item {
+        padding: 0 40px;
+    }
+    .impact_item .item_desc h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .impact_item .item_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    .impact_images {
+        margin: 0 20px;
+    }
+    .img3 {
+        position: absolute;
+        top: 160px;
+        right: -15px;
+    }
+
+    /* =================Plan section================= */
+    #plan {
+        padding: 60px 0;
+    }
+    #plan .section_header h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.6px;
+    }
+    .plan_item {
+        margin: 15px 40px;
+    }
+
+
+    /* =============people thought=============== */
+    #slider {
+        padding: 0;
+    }
+    #slider .section_header h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 0 40px;
+    }
+    /* .slider_content {
+        margin: 80px 0 45px;
+    } */
+    .slider_content_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0 30px;
+    }
+
+    /* ==============Other link=============== */
+    #others_link {
+        padding: 80px 50px 20px;
+    }
+    .link_image{
+        width: 270px;
+        height: 150px;
+    }
+
+    .single_link a {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* letter-spacing: -1.5px; */
+        padding: 16px 0;
+    }
+
+    /* ============Footer section============ */
+    footer {
+        padding: 50px 50px 40px;
+    }
+    .footer_logo {
+        padding-bottom: 24px;
+    }
+    .footer_item p {
+        font-size: 16px;
+        font-weight: 400;
+        width: auto;
+    }
+    .footer_header h4 {
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .footer_item{
+        text-align: center;
+    }
+    .footer_link ul li {
+        padding-bottom: 15px;
+    }
+    .footer_link a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .copyright {
+        padding: 10px 0 0 20px;
+    }
+    .copyright p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .right_side {
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        margin: 0 auto !important; 
+    }
+    .right_side a {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+/* =====================medium screen============= */
+@media (min-width:768px) and (max-width:991.99px) {
+    .navbar {
+        padding: 20px 0;
+        background: rgba(22, 12, 109);
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-toggler {
+        border: 0;
+    }
+    .navbar-toggler i{
+        font-size: 30px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .nav_btn {
+        padding: 8px 12px;
+        font-size: 16px;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    /* ==============Banner section============== */
+    #banner {
+        /* background-image: url(../images/xxsbanner.jpg); */
+        /* background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+        padding: 180px 0 110px;
+    }
+
+    .banner_content h1 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height:    1.5;
+            padding-bottom: 20px;
+        }
+    .banner_content p {
+        padding-bottom: 20px;
+        width: auto;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .banner_btn a {
+        padding: 10px 20px;
+        font-weight: 500;
+        font-size: 18px;
+        width: 200px;
+        text-align: center;
+    }
+
+
+
+    /* ===========Counter section============ */
+    #counter {
+        padding: 40px 0 20px;
+    }
+    .counter_item::after {
+        height: 2px;
+        width: 100px;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        top: unset;
+    }
+    .counter_item:nth-child(3)::after{
+        display: none;
+    }
+    .counter_item span {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .counter_item p {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    /* ==================About section=========== */
+    #about_us {
+        padding: 40px 0;
+        background: #FDFDFD;
+    }
+    .about_work p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px 30px 20px 90px;
+    }
+    .about_work p:hover{
+        padding: 20px 30px 20px 90px;
+    }
+    .about_desc h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .about_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 9px 50px 40px 0;
+    }
+    /* ===========Our service==================== */
+    #our_service {
+        padding: 60px 0;
+    }
+    #our_service .section_header{
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #our_service .section_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .service_item h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    /* ============Impact section============= */
+    #impact {
+        padding: 80px 0 200px;
+    }
+    .impact_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .impact_header p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 23px 40px 50px;
+    }
+    .impact_item {
+        padding: 0 40px;
+    }
+    .impact_item .item_desc h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .impact_item .item_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    .impact_images {
+        margin: 0 100px;
+    }
+    .img3 {
+        position: absolute;
+        top: 160px;
+        right: -15px;
+    }
+
+    /* =================Plan section================= */
+    #plan {
+        padding: 60px 0;
+    }
+    #plan .section_header h4 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.6px;
+    }
+    .plan_item {
+        margin: 0;
+    }
+    .plan_item h6 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 40px 0 25px;
+    }
+    .price h5 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 20px 0 10px;
+    }
+    .plan_item ul {
+        padding: 0 0 40px;
+    }
+    .plan_item ul li {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+
+    /* =============people thought=============== */
+    #slider {
+        padding: 0;
+    }
+    #slider .prev {
+        top: 50%;
+        left: -30px;
+        transform: translateY(-50%);
+
+    }
+    #slider .next {
+        position: absolute;
+        top: 50%;
+        right: -30px;
+        transform: translateY(-50%);
+    }
+    #slider .section_header h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 0 40px;
+    }
+    .slider_content {
+        margin: 80px 80px 50px;
+    }
+    .slider_content_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0 50px;
+    }
+
+    /* ==============Other link=============== */
+    #others_link {
+        padding: 80px 50px 20px;
+    }
+    .link_image{
+        width: 270px;
+        height: 150px;
+    }
+
+    .single_link a {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* letter-spacing: -1.5px; */
+        padding: 16px 0;
+    }
+
+    /* ============Footer section============ */
+    footer {
+        padding: 50px 50px 40px;
+    }
+    .footer_logo {
+        padding-bottom: 24px;
+        text-align: left;
+    }
+    .footer_item p {
+        font-size: 14px;
+        font-weight: 400;
+        width: auto;
+        text-align: left !important;
+    }
+    .footer_header h4 {
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .footer_item{
+        text-align: center;
+    }
+    .footer_link ul li {
+        padding-bottom: 15px;
+    }
+    .footer_link a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .copyright {
+        padding-top: 10px;
+    }
+    .copyright p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .right_side {
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        margin: 0 auto !important; 
+    }
+    .right_side a {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+/* =====================large screen============= */
+@media (min-width:992px) and (max-width:1199.99px) {
+    .navbar {
+        padding: 20px 0;
+    }
+    
+    .nav_btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .navbar-nav {
+        column-gap: 25px;
+        text-align: center;
+    }
+    .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    /* ==============Banner section============== */
+    #banner {
+        padding: 200px 0;
+    }
+    .banner_content h1 {
+            font-weight: 700;
+            font-size: 64px;
+            line-height:1.5;
+            padding-bottom: 20px;
+        }
+    .banner_content p {
+        padding: 0  75px 20px;
+        width: auto;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .banner_btn a {
+        padding: 15px 20px;
+        font-weight: 500;
+        font-size: 18px;
+        width: 200px;
+        text-align: center;
+    }
+
+
+
+    /* ===========Counter section============ */
+    #counter {
+        padding: 100px 10px;
+    }
+    .counter_item span {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .counter_item p {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+
+    /* ===========Our service==================== */
+    #our_service {
+        padding: 60px 0;
+    }
+    #our_service .section_header{
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #our_service .section_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .service_item h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    /* ============Impact section============= */
+
+    .impact_header p {
+        padding: 23px 200px 75px;
+    }
+    .impact_item .item_desc p {
+        padding-right: 20px;
+    }
+    .impact_images {
+        margin: 0 20px;
+    }
+    .img1 {
+        width: 160px;
+        height: 210px;
+        background: #C4C4C4;
+    }
+    .img2 {
+        left: 184px;
+        overflow: hidden;
+        width: 120px;
+        height: 100px;
+    }
+    .img3 {
+        top: 125px;
+        left: 125px;
+        width: 280px;
+        height: 224px;
+    }
+    .img1 img,.img2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* .img3 {
+        position: absolute;
+        top: 160px;
+        left: 200px;
+    } */
+
+    /* =================Plan section================= */
+    #plan {
+        padding: 60px 0;
+    }
+    #plan .section_header h4 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.6px;
+    }
+    .plan_item {
+        margin: 0;
+    }
+    .plan_item h6 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 40px 0 25px;
+    }
+    .price h5 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 20px 0 10px;
+    }
+    .plan_item ul {
+        padding: 0 0 40px;
+    }
+    .plan_item ul li {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+
+    /* =============people thought=============== */
+    #slider {
+        padding: 0;
+    }
+    #slider .prev {
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        z-index: 99;
+    }
+    #slider .next {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+        z-index: 99;
+    }
+    #slider .section_header h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 0 40px;
+    }
+    /* .slider_content {
+        margin: 0 80px;
+    } */
+    .slider_content {
+        width: 700px;
+        margin: 80px auto 50px;
+    }
+    .slider_content_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0 100px;
+    }
+
+    /* ==============Other link=============== */
+    #others_link {
+        padding: 80px 50px 20px;
+    }
+    .link_image{
+        width: 270px;
+        height: 150px;
+    }
+
+    .single_link a {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* letter-spacing: -1.5px; */
+        padding: 16px 0;
+    }
+
+    /* ============Footer section============ */
+    footer {
+        padding: 50px 50px 40px;
+    }
+    .footer_logo {
+        padding-bottom: 24px;
+        text-align: left;
+    }
+    .footer_item p {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        width: auto;
+    }
+    .footer_header h4 {
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .footer_item{
+        text-align: center;
+    }
+    .footer_link ul li {
+        padding-bottom: 15px;
+    }
+    .footer_link a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .copyright {
+        padding-top: 10px;
+    }
+    .copyright p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .right_side {
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        margin: 0 auto !important; 
+    }
+    .right_side a {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+/* ==============Extra large============== */
+@media (min-width:1200px) and (max-width:1399.99px) {
+    .navbar {
+        padding: 20px 0;
+    }
+    
+    .nav_btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .navbar-nav {
+        column-gap: 25px;
+        text-align: center;
+    }
+    .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    /* ==============Banner section============== */
+    #banner {
+        padding: 200px 0;
+    }
+    .banner_content h1 {
+            font-weight: 700;
+            font-size: 64px;
+            line-height:1.5;
+            padding-bottom: 20px;
+        }
+    .banner_content p {
+        padding: 0  75px 20px;
+        width: auto;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .banner_btn a {
+        padding: 15px 20px;
+        font-weight: 500;
+        font-size: 18px;
+        width: 200px;
+        text-align: center;
+    }
+
+
+
+    /* ===========Counter section============ */
+    /* #counter {
+        padding: 100px 0;
+    } */
+    .counter_item span {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .counter_item p {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+
+    /* ===========Our service==================== */
+    #our_service {
+        padding: 60px 0;
+    }
+    #our_service .section_header{
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #our_service .section_header h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .service_item h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    /* ============Impact section============= */
+
+    .impact_header p {
+        padding: 23px 200px 75px;
+    }
+    .impact_item .item_desc p {
+        padding-right: 20px;
+    }
+    .impact_images {
+        margin: 0 20px;
+    }
+    .img3 {
+        position: absolute;
+        top: 160px;
+        right: -15px;
+    }
+
+    /* =================Plan section================= */
+    #plan {
+        padding: 60px 0;
+    }
+    #plan .section_header h4 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.6px;
+    }
+    .plan_item {
+        margin: 0;
+    }
+    .plan_item h6 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 40px 0 25px;
+    }
+    .price h5 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 20px 0 10px;
+    }
+    .plan_item ul {
+        padding: 0 0 40px;
+    }
+    .plan_item ul li {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+
+    /* =============people thought=============== */
+    #slider {
+        padding: 0;
+    }
+    #slider .prev {
+        top: 50%;
+        left: -20px;
+        transform: translateY(-50%);
+        z-index: 99;
+    }
+    #slider .next {
+        position: absolute;
+        top: 50%;
+        right: -20px;
+        transform: translateY(-50%);
+        z-index: 99;
+    }
+    #slider .section_header h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 0 40px;
+    }
+    /* .slider_content {
+        margin: 0 80px;
+    } */
+    .slider_content {
+        width: 960px;
+        margin: 80px auto 50px;
+    }
+    .slider_content_desc p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0 200px;
+    }
+
+    /* ==============Other link=============== */
+    
+
+    /* ============Footer section============ */
+ 
+}
