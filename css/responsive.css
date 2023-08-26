@@ -107,10 +107,10 @@
         padding-left: 20px; 
     }
     .about_desc p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 1.5;
-        padding: 9px 50px 40px 0;
+        padding: 9px 0px 14px 0;
     }
 
 
@@ -128,14 +128,18 @@
         font-weight: 600;
         line-height: 1.5;
     }
-    #our_service .section_header p{
+    #our_service .section_header p {
+        font-size: 14px;
+        line-height: 1.5;
         padding: 0 40px;
     }
     .service_item {
+        padding: 30px 20px 40px;
         margin: 0 20px;
     }
+    
     .service_item p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5;
     }
     .service_item h4 {
@@ -146,7 +150,7 @@
 
     /* ============Impact section============= */
     #impact {
-        padding: 60px 0;
+        padding: 40px 0;
     }
     .impact_header h3 {
         font-size: 30px;
@@ -155,7 +159,7 @@
     }
     .impact_header p {
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 30px;
         padding: 23px 20px 75px;
@@ -169,7 +173,7 @@
         line-height: 1.5;
     }
     .impact_item .item_desc p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 1.5;
         padding-right: 0;
@@ -185,15 +189,27 @@
 
     /* =================Plan section================= */
     #plan {
-        padding: 60px 0;
+        padding: 40px 0;
     }
     #plan .section_header h4 {
         font-size: 30px;
         font-weight: 600;
         line-height: 1.6;
+        margin-bottom: 10px;
     }
     .plan_item {
         margin: 15px 20px;
+    }
+    .plan_item h6 {
+        line-height: 1.5;
+        padding: 30px 0 25px;
+    }
+    .plan_item ul {
+        padding-bottom: 40px;
+    }
+    .plan_item ul li {
+        font-size: 14px;
+        line-height: 1.5;
     }
     /* =============people thought=============== */
     #slider {
@@ -206,7 +222,7 @@
         padding: 0 40px;
     }
     .slider_content_desc p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 1.5;
         padding: 0 20px;
@@ -214,7 +230,7 @@
 
     /* ==============Other link=============== */
     #others_link {
-        padding: 80px 50px 50px 20px;
+        padding: 20px 50px 30px 20px;
     }
     .link_image{
         width: 250px;
@@ -243,9 +259,10 @@
         padding-bottom: 24px;
     }
     .footer_item p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         width: auto;
+        margin-bottom: 20px;
     }
     .footer_header h4 {
         font-size: 24px;
@@ -258,7 +275,7 @@
         text-align: center;
     }
     .footer_link ul li {
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
     .footer_link a {
         font-size: 16px;
@@ -541,6 +558,9 @@
     }
     .footer_item{
         text-align: center;
+    }
+    .footer_item p{
+        margin-bottom: 20px;
     }
     .footer_link ul li {
         padding-bottom: 15px;
